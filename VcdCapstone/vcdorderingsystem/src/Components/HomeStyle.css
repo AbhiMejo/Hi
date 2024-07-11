@@ -1,0 +1,70 @@
+ .home-container {
+  position: relative;
+  text-align: center;
+  padding: 40px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 420%;
+  background-image: url("Home.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8; 
+  z-index: -1;
+}
+
+/* .content {
+  position: relative;
+  z-index: 1;
+   background-color: rgba(255, 255, 255, 0.9);  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: cadetblue;
+}
+
+/* .button-container {
+   display: flex; 
+   flex-direction: column; 
+  gap: 20px;
+} */
+
+.button {
+  display: inline-block; 
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.admin-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.user-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+  
